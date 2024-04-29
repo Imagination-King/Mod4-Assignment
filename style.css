@@ -1,0 +1,64 @@
+/* General page styles */
+body {
+  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, readable font */
+  background-color: #f4f4f9; /* Light grey background for less strain on the eyes */
+  color: #333; /* Dark grey text for readability */
+  padding: 20px; /* Padding around the content */
+  line-height: 1.6; /* Good line height for readability */
+}
+
+h1 {
+  text-align: center; /* Center-align the heading */
+  color: #444; /* Slightly darker color for the heading */
+}
+
+/* General table styles */
+table {
+  width: 80%;             /* Set the width of the table */
+  margin: 20px auto;      /* Center the table on the page */
+  border-collapse: collapse; /* Collapse borders for a clean look */
+  font-family: 'Arial', sans-serif; /* Font style for the text */
+  border-radius: 8px;     /* Rounded corners for the table */
+  overflow: hidden;       /* Ensures the rounded corners are visible */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow around the table */
+}
+
+/* Table header styles */
+th {
+  background-color: #4CAF50; /* Green background for headers */
+  color: white;              /* White text color */
+  padding: 10px;             /* Padding inside the header cells */
+  text-align: left;          /* Align text to the left */
+  font-size: 16px;           /* Font size for headers */
+}
+
+/* Table body styles */
+td {
+  padding: 8px;              /* Padding inside cells */
+  text-align: left;          /* Align text to the left */
+  border-top: 1px solid #ddd;/* Light grey border at the top of the cells */
+  font-size: 14px;           /* Font size for cell content */
+}
+
+#movieList {
+  background-color: #f5f0e1;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  max-width: 960px;
+  padding: 20px;
+  text-align: center;
+  margin: 30px auto;
+  
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
